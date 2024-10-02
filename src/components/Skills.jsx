@@ -1,5 +1,5 @@
 import React from "react"
-import { DiCss3, DiBootstrap, DiJavascript1, DiReact, DiNodejsSmall} from "react-icons/di"
+import { DiCss3, DiBootstrap, DiJavascript1, DiReact, DiJava} from "react-icons/di"
 import { RiTailwindCssFill, RiNextjsFill, RiFlutterFill } from "react-icons/ri";
 import { SiVite, SiDart, SiGooglecloud } from "react-icons/si";
 import Reveal from "./Reveal"
@@ -16,11 +16,12 @@ const skills = [
       ],
     },
     {
-      category: 'Flutter Dev',
+      category: 'Multiplatform App',
       technologies: [
         { name: 'Dart', icon: <SiDart className='text-blue-500'/> },
-        { name: 'Flutter', icon: <RiFlutterFill/> },
-        { name: 'GCloud', icon: <SiGooglecloud /> },
+        { name: 'Flutter', icon: <RiFlutterFill className='text-blue-500'/> },
+        { name: 'Java', icon: <DiJava className='text-red-500'/> },
+        { name: 'GCloud', icon: <SiGooglecloud className='text-blue-700'/> },
       ],
     },
   ]

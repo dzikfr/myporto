@@ -2,6 +2,8 @@ import React from 'react'
 import { FaGithubSquare, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className='max-w-[1200px] mx-auto flex justify-between p-6 md:p-20 text-sm md:text-lg mt-12'>
         <div className='space-y-4'>
@@ -13,8 +15,7 @@ const Footer = () => {
 
         </div>
 
-        <p className='text-gray-400'>@2024 Zixx.Fr</p>
-        
+        <p className='text-gray-400'>@{year} Zixx.Fr</p>
     </div>
   )
 }

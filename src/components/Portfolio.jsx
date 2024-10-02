@@ -1,35 +1,27 @@
 import React from 'react';
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
-import project4 from "../assets/project4.png"
+import project3 from "../assets/project3.png"
+import project4 from "../assets/project4.jpg"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
-import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
+import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "Cashier application",
+      description: "Cashier application for managing stock and payments using Java GUI",
       links: {
         site: "#",
         github: "#",
       },
     },
     {
-      img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      img: project3,
+      title: "MERN E-Commerce",
+      description: "Developed a full-stack e-commerce web application using the MERN stack to manage product listings, user authentication, and payment integration.",
       links: {
         site: "#",
         github: "#",
@@ -37,17 +29,17 @@ const projects = [
     },
     {
       img: project5,
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
+      title: "AI Chatbot",
+      description: "Developed a web application leveraging the OpenAI API to create an AI-powered chat interface.",
       links: {
         site: "#",
         github: "#",
       },
     },
     {
-      img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
+      img: project4,
+      title: "Employee attendance management",
+      description: "Managed employee attendance and leave tracking for BAKARKAM POLRI in 2024 built with MERN stack",
       links: {
         site: "#",
         github: "#",

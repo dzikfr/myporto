@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithubSquare, FaInstagram } from 'react-icons/fa'
+import { FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -11,6 +11,7 @@ const Footer = () => {
             <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
                 <a href="https://github.com/dzikfr"><FaGithubSquare /></a>
                 <a href="https://www.instagram.com/dzikrifauzr"><FaInstagram /></a>
+                <a href="https://www.linkedin.com/in/dzikri-fauzi-ramdhani-1612a2308/"><FaLinkedin /></a>
             </div>
 
         </div>

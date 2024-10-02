@@ -5,7 +5,7 @@ import Reveal from './Reveal'
 const experiences = [
     {
       company: 'Digital print karya grafika',
-      job : 'Graphic Desainer',
+      job : 'Graphic Designer',
       period: '2022 - 2024',
       description: 'created various kinds of digital designs that are printed onto various media',
     }

@@ -22,7 +22,7 @@ const projects = [
       description: "Cashier application for managing stock and payments using Java GUI",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/dzikfr/aplikasi-kasir-java",
       },
     },
     {

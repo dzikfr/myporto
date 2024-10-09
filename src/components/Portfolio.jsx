@@ -1,27 +1,25 @@
 import React from 'react';
 import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.jpg"
 import project5 from "../assets/project5.png"
-import project6 from "../assets/project6.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
     {
-      img: project1,
-      title: "Cashier application",
-      description: "Cashier application for managing stock and payments using Java GUI",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
       img: project3,
       title: "MERN E-Commerce",
       description: "Developed a full-stack e-commerce web application using the MERN stack to manage product listings, user authentication, and payment integration.",
+      links: {
+        site: "https://mern-ecommerce-fe-five.vercel.app/",
+        github: "https://github.com/dzikfr/mern-ecommerce",
+      },
+    },
+    {
+      img: project1,
+      title: "Cashier application",
+      description: "Cashier application for managing stock and payments using Java GUI",
       links: {
         site: "#",
         github: "#",

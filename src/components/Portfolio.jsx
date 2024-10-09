@@ -65,6 +65,7 @@ const Portfolio = () => {
                     <p className='text-gray-300 mb-4'>{project.description}</p>
                     <div className='flex space-x-4'>
                         <a href={project.links.site}
+                            target='_blank'
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
                             View Site

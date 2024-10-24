@@ -50,7 +50,7 @@ const projects = [
       description: "Managed employee attendance and leave tracking for BAKARKAM POLRI in 2024 built with MERN stack",
       links: {
         site: "#",
-        github: "#",
+        github: "https://github.com/dzikfr/aplikasi-absensi-baharkam-2024",
       },
     },
   ]

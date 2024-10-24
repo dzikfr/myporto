@@ -1,5 +1,6 @@
 import React from 'react';
 import project1 from "../assets/project1.png"
+import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.jpg"
 import project5 from "../assets/project5.png"
@@ -14,6 +15,15 @@ const projects = [
       links: {
         site: "https://mern-ecommerce-fe-five.vercel.app/",
         github: "https://github.com/dzikfr/mern-ecommerce",
+      },
+    },
+    {
+      img: project2,
+      title: "UI Store Website",
+      description: "Create UI based on the figma design that have responsive and interactive features",
+      links: {
+        site: "https://fe-sisko.vercel.app/",
+        github: "https://github.com/dzikfr/fe-sisko",
       },
     },
     {

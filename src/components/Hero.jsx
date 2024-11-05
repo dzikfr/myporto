@@ -34,11 +34,11 @@ const Hero = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "Frontend Web",
+                "Junior Fullstack Developer",
                 1000,
                 "Flutter Dev",
                 1000,
-                "AI Engineer",
+                "Java Developer",
                 1000,
               ]}
               speed={50}

@@ -4,16 +4,28 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
+      company: 'BAHARKAM POLRI',
+      job : 'Backend Developer - Internship',
+      period: 'September 2024 - Present',
+      description: 'Developed REST API endpoints and request-handling controllers using Node.js, Express, and Mongoose.',
+    },
+    {
+      company: 'Eduwork',
+      job : 'Fullstack - Project Internship',
+      period: 'August 2024 - November 2024',
+      description: 'Implemented MVC architecture and REST APIs with ExpressJS; designed responsive views using ReactJS.',
+    },
+    {
       company: 'Digital print karya grafika',
-      job : 'Graphic Designer',
-      period: '2022 - 2024',
-      description: 'created various kinds of digital designs that are printed onto various media',
-    }
+      job : 'Graphic Designer - Part Time',
+      period: 'January 2022 - January 2024',
+      description: 'Created product mockups and templates in CorelDRAW, optimizing design for high-quality printing and team collaboration',
+    },
 ]
 
 const Experience = () => {
   return (
-    <div className='p-8 max-w-[600px] mx-auto'>
+    <div className='p-8 max-w-[600px] mx-auto' id='experience'>
         <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experience</h1>
         <motion.div
         className='space-y-8'

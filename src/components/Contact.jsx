@@ -14,17 +14,19 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I am a student with experience in graphic design, currently
-                expanding my knowledge in Web development, Flutter development,
-                and AI engineering.
+                Final-year Computer Science student focused on web development
+                (MERN stack). Experienced in database management, API
+                integration, and teamwork using Git and Agile. Currently
+                exploring AI engineering, mobile development, and Web 3.0, with
+                a goal to grow in front-end, back-end, or full-stack roles in a
+                dynamic environment.
               </p>
             </div>
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  4
-                  <span>+</span>
+                  4<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
@@ -42,8 +44,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  3
-                  <span>+</span>
+                  3<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>tech</span>

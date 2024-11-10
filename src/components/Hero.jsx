@@ -8,7 +8,7 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import { RiFlutterFill } from "react-icons/ri";
-import { DiJavascript1, DiNodejsSmall, DiReact } from "react-icons/di";
+import { DiDart, DiJava, DiJavascript1, DiNodejsSmall, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -34,11 +34,11 @@ const Hero = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "Junior Fullstack Developer",
+                "Fullstack Developer",
                 1000,
                 "Flutter Dev",
                 1000,
-                "Java Developer",
+                "Java Desktop Dev",
                 1000,
               ]}
               speed={50}
@@ -55,7 +55,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
           >
-            Student who has just started studying
+            Final year student at Pamulang University
           </motion.p>
 
           <motion.div
@@ -72,8 +72,9 @@ const Hero = () => {
               }}
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"
+                                     
             >
-              Download CV
+              <a href="https://docs.google.com/document/d/1BVwY4IZv29B3up0qnap4fxTyU3VYN0xkvzkQnAuBEnM/edit?usp=sharing" target="_blank">View CV</a>
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
@@ -107,9 +108,8 @@ const Hero = () => {
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
         <DiJavascript1 className="text-yellow-500 mx-2" />
-        <DiReact className="text-blue-500 mx-2" />
-        <DiNodejsSmall className="text-green-500 mx-2" />
-        <RiFlutterFill className="text-blue-500 mx-2" />
+        <DiDart className="text-blue-500 mx-2" />
+        <DiJava className="text-red-500 mx-2" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">

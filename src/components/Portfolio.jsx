@@ -2,8 +2,7 @@ import React from 'react';
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
-import project4 from "../assets/project4.jpg"
-import project5 from "../assets/project5.png"
+import project4 from "../assets/project4.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -27,30 +26,21 @@ const projects = [
       },
     },
     {
+      img: project4,
+      title: "Employee attendance and leave management",
+      description: "Managed employee attendance and leave tracking for BAKARKAM POLRI in 2024 built with MERN stack",
+      links: {
+        site: "#",
+        github: "https://github.com/dzikfr/aplikasi-absensi-baharkam-2024",
+      },
+    },
+    {
       img: project1,
       title: "Cashier application",
       description: "Cashier application for managing stock and payments using Java GUI",
       links: {
         site: "#",
         github: "https://github.com/dzikfr/aplikasi-kasir-java",
-      },
-    },
-    {
-      img: project5,
-      title: "AI Chatbot",
-      description: "Developed a web application leveraging the OpenAI API to create an AI-powered chat interface.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project4,
-      title: "Employee attendance management",
-      description: "Managed employee attendance and leave tracking for BAKARKAM POLRI in 2024 built with MERN stack",
-      links: {
-        site: "#",
-        github: "https://github.com/dzikfr/aplikasi-absensi-baharkam-2024",
       },
     },
   ]

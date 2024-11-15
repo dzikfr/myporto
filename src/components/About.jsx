@@ -1,6 +1,5 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { motion } from "framer-motion";
+import pp from '../assets/pp.png'
 import Reveal from "./Reveal";
 
 const About = () => {
@@ -10,9 +9,9 @@ const About = () => {
         <div className="grid md:grid-cols-2 place-items-center">
           <div>
             <img
-              src="https://avatars.githubusercontent.com/u/102792912?v=4"
+              src={pp}
               alt="Dzikri Fauzi"
-              className="w-[200px] h-[200px] rounded-full md:mt-0 mt-10"
+              className="w-[200px] h-[200px] rounded-full md:mt-0 mt-10 md:w-[350px] md:h-[350px] border border-purple-600 border-2"
             />
           </div>
           <div>
@@ -33,7 +32,7 @@ const About = () => {
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  4<span>+</span>
+                  5<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>

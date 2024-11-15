@@ -7,7 +7,6 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import { RiFlutterFill } from "react-icons/ri";
 import { DiDart, DiJava, DiJavascript1, DiNodejsSmall, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
 
@@ -43,7 +42,7 @@ const Hero = () => {
               ]}
               speed={50}
               repeat={Infinity}
-              className="font-bold text-gray-400 text-base md:text-5xl italic-mb-4"
+              className="font-bold text-gray-400 text-5xl italic-mb-4"
             />
             <br />
           </motion.p>
@@ -78,13 +77,11 @@ const Hero = () => {
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
+              
               <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/dzikfr" target="_blank">
                 <AiOutlineGithub />
               </motion.a> 
 
-              <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/dzikrifauzr" target="_blank">
-                <AiOutlineInstagram />
-              </motion.a>
             </div>
           </motion.div>
         </motion.div>

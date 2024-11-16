@@ -2,12 +2,9 @@ import React from "react";
 import profilepic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
-import {
-  AiOutlineGithub,
-  AiOutlineInstagram,
-  AiOutlineLinkedin,
-} from "react-icons/ai";
-import { DiDart, DiJava, DiJavascript1, DiNodejsSmall, DiReact } from "react-icons/di";
+import { AiOutlineGithub } from "react-icons/ai";
+import { DiJavascript1 } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -33,12 +30,10 @@ const Hero = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "Fullstack Developer",
-                1000,
+                "Fullstack Dev",
+                1500,
                 "Flutter Dev",
-                1000,
-                "Java Desktop Dev",
-                1000,
+                1500,
               ]}
               speed={50}
               repeat={Infinity}
@@ -105,8 +100,7 @@ const Hero = () => {
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
         <DiJavascript1 className="text-yellow-500 mx-2" />
-        <DiDart className="text-blue-500 mx-2" />
-        <DiJava className="text-red-500 mx-2" />
+        <SiTypescript className="text-blue-500 mx-2" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">

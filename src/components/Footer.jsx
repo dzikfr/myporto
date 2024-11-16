@@ -10,7 +10,6 @@ const Footer = () => {
             <h3 className='text-2xl text-gray-200 font-semibold'>Dzikri Fauzi</h3>
             <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
                 <a href="https://github.com/dzikfr"><FaGithubSquare /></a>
-                <a href="https://www.instagram.com/dzikrifauzr"><FaInstagram /></a>
                 <a href="https://www.linkedin.com/in/dzikri-fauzi-ramdhani-1612a2308/"><FaLinkedin /></a>
             </div>
 

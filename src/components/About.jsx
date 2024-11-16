@@ -1,5 +1,5 @@
 import React from "react";
-import pp from '../assets/pp.png'
+import pp from "../assets/pp.png";
 import Reveal from "./Reveal";
 
 const About = () => {
@@ -21,11 +21,9 @@ const About = () => {
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 Final-year Computer Science student focused on web development
-                (MERN stack). Experienced in database management, API
-                integration, and teamwork using Git and Agile. Currently
-                exploring AI engineering, mobile development, and Web 3.0, with
-                a goal to grow in front-end, back-end, or full-stack roles in a
-                dynamic environment.
+                (MERN stack). Currently exploring AI engineering, mobile
+                development, and Web 3.0, with a goal to grow in front-end,
+                back-end, or full-stack roles in a dynamic environment.
               </p>
             </div>
 

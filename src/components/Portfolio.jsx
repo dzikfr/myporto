@@ -3,10 +3,20 @@ import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/project3.png"
 import project4 from "../assets/project4.png"
+import project5 from "../assets/project5.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
+    {
+      img: project5,
+      title: "Web Tools",
+      description: "There are lots of tools that can be used to make the job easier.",
+      links: {
+        site: "https://random-web-tools.vercel.app/",
+        github: "https://github.com/dzikfr/web-tools",
+      },
+    },
     {
       img: project3,
       title: "MERN E-Commerce",
@@ -68,7 +78,7 @@ const Portfolio = () => {
                             target='_blank'
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                            View Site
+                            Demo
                         </a>
                         <a href={project.links.github}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700

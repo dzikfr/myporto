@@ -1,7 +1,6 @@
 import React from "react";
 import profilepic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
-import ShinyEffect from "./ShinyEffect";
 import { AiOutlineGithub } from "react-icons/ai";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
@@ -9,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="mt-24 max-w-[1200px] mx-auto relative">
+    <div className="mt-24 max-w-[1200px] mx-auto relative overflow-hidden">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -29,12 +28,7 @@ const Hero = () => {
             <span className="text-purple-500">Dzikri Fauzi</span>
             <br />
             <TypeAnimation
-              sequence={[
-                "Fullstack Dev",
-                1500,
-                "Mobile Dev",
-                1500,
-              ]}
+              sequence={["Fullstack Dev", 1500, "Mobile Dev", 1500]}
               speed={50}
               repeat={Infinity}
               className="font-bold text-gray-400 text-5xl italic-mb-4"
@@ -59,24 +53,30 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="flex flex-row items-center gap-6 my-4 md:mb-0"
           >
-            <motion.button 
+            <motion.button
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
               }}
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"
-                                     
             >
-              <a href="https://docs.google.com/document/d/1BVwY4IZv29B3up0qnap4fxTyU3VYN0xkvzkQnAuBEnM/edit?usp=sharing" target="_blank">View CV</a>
+              <a
+                href="https://docs.google.com/document/d/1BVwY4IZv29B3up0qnap4fxTyU3VYN0xkvzkQnAuBEnM/edit?usp=sharing"
+                target="_blank"
+              >
+                View CV
+              </a>
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-              
-              <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/dzikfr" target="_blank">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="https://github.com/dzikfr"
+                target="_blank"
+              >
                 <AiOutlineGithub />
-              </motion.a> 
-
+              </motion.a>
             </div>
           </motion.div>
         </motion.div>
@@ -102,10 +102,6 @@ const Hero = () => {
         <DiJavascript1 className="text-yellow-500 mx-2" />
         <SiTypescript className="text-blue-500 mx-2" />
       </motion.div>
-
-      <div className="absolute inset-0 hidden md:block">
-        <ShinyEffect left={0} top={0} size={1400} />
-      </div>
     </div>
   );
 };

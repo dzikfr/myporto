@@ -178,7 +178,7 @@ const Portfolio = () => {
       <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
 
       {/* Tabs */}
-      <div className="flex space-x-4 mb-8">
+      <div className="flex space-x-1.5 mb-8">
         <button
           onClick={() => setActiveTab("web")}
           className={`px-4 py-2 rounded-lg ${

@@ -32,7 +32,7 @@ const Hero = () => {
               sequence={[
                 "Fullstack Dev",
                 1500,
-                "Flutter Dev",
+                "Mobile Dev",
                 1500,
               ]}
               speed={50}

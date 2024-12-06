@@ -9,23 +9,27 @@ import {
   SiTypescript,
   SiRedux,
   SiPostman,
-  SiInkscape,
-  SiCoreldraw,
   SiTailwindcss,
   SiVite,
-  SiVisualstudiocode,
   SiDaisyui,
-  SiPassport
+  SiPassport,
+  SiExpo,
+  SiGradle,
+  SiKotlin,
+  SiJest,
+  SiVercel
 } from "react-icons/si";
 import { FaGitAlt, FaGithub, FaBootstrap } from "react-icons/fa";
-import { LiaFigma } from "react-icons/lia";
 import Reveal from "./Reveal";
 
 const skills = [
   {
     category: "Fullstack Web",
     technologies: [
-      { name: "JavaScript", icon: <DiJavascript1 className="text-yellow-500" />, },
+      {
+        name: "JavaScript",
+        icon: <DiJavascript1 className="text-yellow-500" />,
+      },
       { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
       { name: "ReactJS", icon: <DiReact className="text-blue-500" /> },
       { name: "NextJS", icon: <RiNextjsFill className="text-gray-700" /> },
@@ -36,6 +40,15 @@ const skills = [
     ],
   },
   {
+    category: "Mobile",
+    technologies: [
+      { name: "RNative", icon: <DiReact className="text-blue-500" /> },
+      { name: "Expo", icon: <SiExpo className="text-blue-500" /> },
+      { name: "Gradle", icon: <SiGradle className="text-gray-500" /> },
+      { name: "Kotlin", icon: <SiKotlin className="text-blue-700" /> },
+    ],
+  },
+  {
     category: "Tools",
     technologies: [
       { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
@@ -43,9 +56,8 @@ const skills = [
       { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
       { name: "Postman", icon: <SiPostman className="text-red-500" /> },
       { name: "WebHook", icon: <MdOutlineWebhook className="text-gray-500" /> },
-      { name: "Figma", icon: <LiaFigma className="text-gray-500" /> },
-      { name: "Inkscape", icon: <SiInkscape className="text-gray-500" /> },
-      { name: "CorelDraw", icon: <SiCoreldraw className="text-gray-500" /> },
+      { name: "Jest", icon: <SiJest className="text-red-500" /> },
+      { name: "Vercel", icon: <SiVercel className="text-white" /> },
     ],
   },
   {
@@ -55,7 +67,6 @@ const skills = [
       { name: "DaisyUI", icon: <SiDaisyui className="text-sky-500" /> },
       { name: "Bootstrap", icon: <FaBootstrap className="text-purple-500" /> },
       { name: "Vite", icon: <SiVite className="text-blue-700" /> },
-      { name: "VSCode", icon: <SiVisualstudiocode className="text-blue-500" /> },
       { name: "Redis", icon: <DiRedis className="text-red-500" /> },
       { name: "Passport", icon: <SiPassport className="text-gray-500" /> },
     ],
@@ -69,25 +80,28 @@ const Skills = () => {
       id="skills"
     >
       <Reveal>
-        <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
-        <p className="text-center mb-8">
-          I have an intermediate of the following technologies
+        <h2 className="text-3xl font-bold mb-4 text-center sm:text-4xl">
+          Skills
+        </h2>
+        <p className="text-center mb-8 text-sm sm:text-base">
+          I have an intermediate level of experience with the following
+          technologies.
         </p>
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
           {skills.map((skill, index) => (
             <div
               key={index}
               className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg 
-                                w-full md:w-1/2"
+                        w-full sm:w-4/5 md:w-1/2 lg:w-1/3"
             >
-              <h3 className="text-xl font-bold mb-4 text-center">
+              <h3 className="text-xl font-bold mb-4 text-center text-lg sm:text-xl">
                 {skill.category}
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 {skill.technologies.map((tech, idx) => (
                   <div key={idx} className="flex items-center space-x-2">
                     <span className="text-2xl">{tech.icon}</span>
-                    <span>{tech.name}</span>
+                    <span className="text-sm sm:text-base">{tech.name}</span>
                   </div>
                 ))}
               </div>

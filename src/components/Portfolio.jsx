@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 import api from "../assets/api.png"; 
@@ -63,7 +63,7 @@ const projectsMobile = [
     description:
       "A mobile application that predicts the weather based on user location and user input.",
     links: {
-      github: "https://github.com/dzikfr/music-player-RN",
+      github: "https://github.com/dzikfr/WeatherAppRN",
     },
   },
   {
@@ -71,7 +71,7 @@ const projectsMobile = [
     title: "Music Player App",
     description: "A mobile application that plays music based on user file.",
     links: {
-      github: "https://github.com/dzikfr/WeatherAppRN",
+      github: "https://github.com/dzikfr/music-player-RN",
     },
   },
 ];

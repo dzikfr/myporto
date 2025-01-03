@@ -1,4 +1,3 @@
-import React from "react";
 import { DiJavascript1, DiReact, DiMysql, DiRedis } from "react-icons/di";
 import { RiNextjsFill } from "react-icons/ri";
 import { MdOutlineWebhook } from "react-icons/md";
@@ -93,7 +92,7 @@ const Skills = () => {
               key={index}
               className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg"
             >
-              <h3 className="text-xl font-bold mb-4 text-center text-lg sm:text-xl">
+              <h3 className="text-xl font-bold mb-4 text-center sm:text-xl">
                 {skill.category}
               </h3>
               <div className="grid grid-cols-2 gap-4">

@@ -1,4 +1,3 @@
-import React from "react";
 import profilepic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
 import { AiOutlineGithub } from "react-icons/ai";
@@ -23,7 +22,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
           >
-            Hallo, I'm
+            `Hallo, I am`
             <br />
             <span className="text-purple-500">Dzikri Fauzi</span>
             <br />

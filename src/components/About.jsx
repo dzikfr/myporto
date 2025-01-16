@@ -1,4 +1,3 @@
-import React from "react";
 import pp from "../assets/pp.png";
 import Reveal from "./Reveal";
 
@@ -11,7 +10,7 @@ const About = () => {
             <img
               src={pp}
               alt="Dzikri Fauzi"
-              className="w-[200px] h-[200px] rounded-full md:mt-0 mt-10 md:w-[350px] md:h-[350px] border border-purple-600 border-2"
+              className="w-[200px] h-[200px] rounded-full md:mt-0 mt-10 md:w-[350px] md:h-[350px] border-purple-600 border-2"
             />
           </div>
           <div>
@@ -21,8 +20,8 @@ const About = () => {
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 Final-year Computer Science student focused on web development
-                (MERN stack). Currently exploring AI engineering, mobile
-                development, and Web 3.0, with a goal to grow in front-end,
+                (MERN stack). Currently exploring AI engineering and mobile
+                development with a goal to grow in front-end,
                 back-end, or full-stack roles in a dynamic environment.
               </p>
             </div>

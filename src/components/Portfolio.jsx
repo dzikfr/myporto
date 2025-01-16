@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
-import api from "../assets/api.png"; 
+import api from "../assets/api.png";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
@@ -63,6 +63,7 @@ const projectsMobile = [
     description:
       "A mobile application that predicts the weather based on user location and user input.",
     links: {
+      site: "#",
       github: "https://github.com/dzikfr/WeatherAppRN",
     },
   },
@@ -71,6 +72,7 @@ const projectsMobile = [
     title: "Music Player App",
     description: "A mobile application that plays music based on user file.",
     links: {
+      site: "#",
       github: "https://github.com/dzikfr/music-player-RN",
     },
   },
@@ -80,7 +82,8 @@ const projectsMobile = [
 const projectsAPI = [
   {
     title: "Attendance Project API",
-    description: "A RESTful API for attendance project that manages employe, admin, attendance adn leave.",
+    description:
+      "A RESTful API for attendance project that manages employe, admin, attendance adn leave.",
     links: {
       site: "https://aplikasi-absensi-baharkam-2024.vercel.app/",
       github:
@@ -89,11 +92,11 @@ const projectsAPI = [
   },
   {
     title: "E-Commerce API",
-    description: "A RESTful API for e-commerce project that manages product, user, and payment.",
+    description:
+      "A RESTful API for e-commerce project that manages product, user, and payment.",
     links: {
       site: "https://mern-ecommerce-fe-five.vercel.app",
-      github:
-        "https://github.com/dzikfr/ziishop/tree/main/backend",
+      github: "https://github.com/dzikfr/ziishop/tree/main/backend",
     },
   },
 ];
@@ -139,7 +142,7 @@ const Portfolio = () => {
         >
           <div className="w-full md:w-1/2 p-4">
             <img
-              src={project.img? project.img : api}
+              src={project.img ? project.img : api}
               alt={project.title}
               className="w-full max-w-[400px] h-auto object-cover rounded-lg shadow-lg mx-auto"
             />
@@ -150,14 +153,16 @@ const Portfolio = () => {
             </h3>
             <p className="text-gray-300 mb-4">{project.description}</p>
             <div className="flex space-x-4">
-              <a
-                href={project.links.site}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300"
-              >
-                Demo
-              </a>
+              {project.links.site !== "#" && (
+                <a
+                  href={project?.links?.site || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300"
+                >
+                  Link
+                </a>
+              )}
               <a
                 href={project.links.github}
                 target="_blank"

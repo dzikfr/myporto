@@ -19,10 +19,10 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, delay: 0.5 }}
+            transition={{ duration: 1, delay: 0.5 }} 
             className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
           >
-            `Hallo, I am`
+            <span className="text-purple-500">Hi, I&apos;m</span>
             <br />
             <span className="text-purple-500">Dzikri Fauzi</span>
             <br />

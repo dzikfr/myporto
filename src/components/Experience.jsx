@@ -1,12 +1,17 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import Reveal from './Reveal'
 
 const experiences = [
     {
+      company: 'WINNING SOFT',
+      job : 'Junior Developer - Fulltime',
+      period: 'January 2025 - Present',
+      description: 'Writes code, fixes bugs, and contributes to software development',
+    },
+    {
       company: 'BAHARKAM POLRI',
-      job : 'Backend Developer - Internship',
-      period: 'September 2024 - Present',
+      job : 'Junior Backend Developer - Internship',
+      period: 'September 2024 - December',
       description: 'Developed REST API endpoints and request-handling controllers using Node.js, Express, and Mongoose.',
     },
     {
@@ -33,7 +38,7 @@ const Experience = () => {
         animate="visible"
         >
             {experiences.map((experience, index) => (
-                <Reveal>
+                <Reveal key={index}>
                 <motion.div
                     key={index}
                     initial="hidden"

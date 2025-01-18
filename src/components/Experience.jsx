@@ -11,7 +11,7 @@ const experiences = [
     {
       company: 'BAHARKAM POLRI',
       job : 'Junior Backend Developer - Internship',
-      period: 'September 2024 - December',
+      period: 'September 2024 - December 2024',
       description: 'Developed REST API endpoints and request-handling controllers using Node.js, Express, and Mongoose.',
     },
     {
